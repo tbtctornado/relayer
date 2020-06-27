@@ -11,11 +11,7 @@ class Fetcher {
     this.oracleWeb3 = new Web3(oracleRpcUrl)
     this.oracle = new this.oracleWeb3.eth.Contract(priceOracleABI, oracleAddress)
     this.ethPrices = {
-      dai: '6700000000000000', // 0.0067
-      cdai: '157380000000000',
-      cusdc: '164630000000000',
-      usdc: '7878580000000000',
-      usdt: '7864940000000000'
+      tbtc: '45350000000000000000',
     }
     this.tokenAddresses
     this.oneUintAmount
